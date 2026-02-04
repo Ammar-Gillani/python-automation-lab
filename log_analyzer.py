@@ -1,4 +1,5 @@
-file = open("sample_log.txt", "r")
+filename = input("Enter log file name: ")
+file = open(filename, "r")
 lines = file.readlines()
 file.close()
 error_count = 0
